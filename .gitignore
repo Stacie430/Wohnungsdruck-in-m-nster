@@ -1,0 +1,44 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Editor / OS artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Generated analysis/dashboard outputs
+pivot_20_39.csv
+grid_scored.csv
+grid2.geojson
+protected_green.geojson
+campus_points.json
+map_payload.json
+clusters.json
+muenster_wanderungsdruck.html
+
+# Local raw input data files
+05515000_csv_altersgruppenwanderungen_saldiert.csv
+stadtbezirk_und_teilbereich.geojson
+gruen_opendata.csv
+umweltzone_opendata.csv
